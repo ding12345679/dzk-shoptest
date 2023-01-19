@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商城首页</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="dingFloat">
+    <ul class="dingItem">
+        <li>
+            <span>京东秒杀</span>
+        </li>
+        <li>
+            <img src="img/fd.dpg" alt="">
+        </li>
+        <li>
+            <span>特色优选</span>
+        </li>
+        <li>
+            <span>频道广场</span>
+        </li>
+        <li>
+            <span>为你推荐</span>
+        </li>
+        <li>
+            <span style="line-height: 44px">客服</span>
+        </li>
+        <li id="goBack">
+             返回顶部
+        </li>
+    </ul>
+</div>
+<!-- 首页开始 -->
+<div class="w">
+
+    <!-- 导航区域begin -->
+    <section class="topNav">
+        <div class="topNav_left">
+            <ul>
+                <li>欢迎&nbsp;</li>
+                <li><a href="html/login.html">登录&nbsp;|</a></li>
+                <li><a href="html/login.html">&nbsp;免费注册</a></li>
+            </ul>
+        </div>
+        <div class="topNav_right">
+            <ul>
+                <li><a href=""> 我的订单 </a></li>
+                <li></li>
+                <li class=" "><a href=""> 我的生活 </a></li>
+                <li></li>
+                <li><a href=" "> DK会员 </a></li>
+                <li></li>
+                <li><a href=""> 企业采购</a></li>
+                <li></li>
+                <li><a href=""> 关注DK</a></li>
+                <li></li>
+                <li><a href="">客户服务</a></li>
+                <li></li>
+                <li><a href=""> 网站导航</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- 导航区域end -->
+    <!-- 头部[ logo 搜索框及下面高频搜索词 购物车] -->
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <a href="index.html"><img src="img/login.png" alt=""></a>
+        </div>
+        <!-- 搜索区域-->
+        <div class="reseach">
+            <div class="searchZone">
+                <input type="text" class="searchContent">
+                <span class="photo-search-btn"></span>
+                <input type="submit" class="reachBtn" value=" ">
+            </div>
+            <!--高频-->
+            <div class="fluseach">
+                <li><a href="#" class="defaultItem">优惠购首发</a></li>
+                <li><a href="">亿元优惠</a></li>
+                <li><a href="">9.9团购</a></li>
+                <li><a href="">办公用品</a></li>
+                <li><a href="">数码产品</a></li>
+                <li><a href="">大牌正品</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 购物车 -->
+        <a href="html/login.html"> <div class="shopcar">
+            我的购物车 <i class="count">37</i>
+        </div></a>
+    </header>
+    <!-- 头部结束 -->
+    <!-- main导航栏 -->
+    <div class="mainNav">
+        <!-- 左导航 -->
+        <div class="leftNav">
+            <dt> 全部商品分类</dt>
+        </div>
+        <!-- 右导航 -->
+        <div class="rightNav">
+           <ul>
+               <a href="html/list.html" target="_blank"> <li> 电玩 </li></a>
+            <!-- 事后用js设置属性target 为_blank -->
+               <a href="html/list.html" target="_blank"> 美妆 </li></a>
+               <a href="html/list.html" target="_blank">  <li>  超市 </li></a>
+               <a href="html/list.html" target="_blank"> <li> 全球购</li> </a>
+               <a href="html/list.html" target="_blank"><li> 团购</li> </a>
+               <a href="html/list.html" target="_blank"><li>闪购 </li></a>
+               <a href="html/list.html" target="_blank"> <li>拍卖 </li></a>
+               <a href="html/list.html" target="_blank"><li>趣味 </li></a>
+           </ul>
+        </div>
+    </div>
+    <!-- 主要三平分 开始 -->
+    <div class="fs_col">
+        <!-- 侧导航栏-->
+        <div class="fs_col0">
+            <ul>
+                <a href=""></a>
+                <li><a href=""> 电器</a></li>
+                <li><a href="">手机</a></li>
+                <li><a href="">电脑</a></li>
+                <li><a href=""> 家具</a></li>
+                <li><a href="">服装</a></li>
+                <li><a href="">化妆</a></li>
+                <li><a href="">户外</a></li>
+                <li><a href="">汽车配件</a></li>
+                <li><a href="">医药</a></li>
+                <li><a href="">理财</a></li>
+                <li><a href="">图书></a></li>
+                <li><a href="">母婴</a></li>
+                <li><a href="">手表</a></li>
+                <li><a href="">乐器</a></li>
+                <li><a href="">玩偶</a></li>
+            </ul>
+        </div>
+        <!-- 轮播图 -->
+        <div class="fs_col1">
+            <span class="s" id="l"><</span>
+            <ul class="focusImg">
+                <li>
+                    <a href=""><img src="img/focus1.jpg" alt="" ></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/focus2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/focus3.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/focus4.jpg" alt=""></a>
+                </li>
+            </ul>
+            <span class="s" id="r"> > </span>
+          <ol class="circle">
+
+          </ol>
+        </div>
+        <!--快报快捷键 -->
+        <div class="fs_col2">
+<!--             1 用户登录-->
+            <div class="userStatus">
+                <a href="html/login.html"> <img src="img/user.png" alt=""></a>
+                <div class="userInfo">
+                    <span style="font-size: larger;font-weight: bolder">Hi~ 欢迎来逛</span>
+                    <p>
+                        <a href="html/login.html"> 注册</a>
+                        |
+                        <a href="html/login.html"> 登录</a>
+                        </p>
+                    </div>
+                <div class="userType">
+                   <ul >
+                       <li class="sty1"> 新人福利</a></li>
+                       <li class="sty2">会员Plus</li>
+                   </ul>
+                </div>
+            </div>
+<!--           2 快报-->
+            <div class="kb">
+                <div class="bt">
+                    <span>购物快报 </span>
+                    <a href="">更多>></a>
+                </div>
+
+                <div class="th">
+                    <ul>
+                        <li> <a href="#">【特惠】母亲节健康好礼低至五折</a></li>
+                        <li><a href="#">【特惠】母亲节健康好礼低至五折</a></li>
+                        <li><a href="#">【特惠】母亲节健康好礼低至五折</a></li>
+                        <li><a href="#">【特惠】母亲节健康好礼低至五折</a></li>
+                    </ul>
+                </div>
+                <!--            3 快捷-->
+                <div class="list">
+                    <ul>
+                        <a href=""><li> <h5></h5>  </li></a>
+                        <a href=""><li> <h5></h5></li></a>
+                        <a href=""><li><h5></h5></li></a>
+                        <a href=""><li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""> <li><h5></h5></li></a>
+                        <a href=""><li><h5></h5></li></a>
+                        <a href=""><li><h5></h5></li></a>
+                    </ul>
+                </div>
+                <div class="bj">
+                    <img src="img/new.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    main盒子和快报结束-->
+<!--    秒杀开始-->
+<!--    倒计时开始-->
+    <div class="secSkill">
+        <a href="html/list.html" target="_blank">
+            <div class="clock">
+            <div class="countdown-tittle" >
+                商城秒杀
+            </div>
+            <div>
+                <div class="countdown-desc"><strong id="end-time"> </strong>点场 距结束还有</div>
+                <span class="timer">
+                    <span class="timer_hour" id="hour">00</span>
+                            <span class="timer_circle">:</span>
+                    <span class="timer_minute" id="minute"> </span>
+                            <span class="timer_circle">:</span>
+                    <span class="timer-second" id="second"> </span>
+                </span>
+            </div>
+        </div>
+        </a>
+<!--        倒计时结束-->
+<!--        滚动列表开始-->
+        <div class="roll-list">
+            <ul  >
+<!--                <button class="   "><</button>-->
+                <li><img src="img/cu.jpg" alt="" title="西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）">
+                <h6>西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）</h6>
+                    <span>￥699</span>
+                </li>
+
+                <li><img src="img/cu.jpg" alt="" title="西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）">
+                    <h6>西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）</h6>
+                    <span>￥699</span>
+                </li>
+
+                <li><img src="img/cu.jpg" alt="" title="西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）">
+                    <h6>西凤酒 绿瓶高脖 凤香型高度白酒 55度 500ml*6瓶 整箱装（版本随机）</h6>
+                    <span>￥699</span>
+                </li>
+<!--                <button class="   ">></button>-->
+            </ul>
+            <!--        分类入口-->
+            <div class="type-put">
+                <div class="type-put-img">
+                    <img src="img/cu.jpg" alt="">
+                </div>
+                <h6> 美味调料</h6>
+                <span>热门分类</span>
+            </div>
+        </div>
+<!--        滚动列表结束-->
+    </div>
+<!--    秒杀结束-->
+<!--    春节年货 list 开始-->
+    <div class="gift">
+        <ul class="goods">
+            <a href="html/content.html" target="_blank">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+            <a href="html/content.html">
+                <li>
+                    <img src="img/goods.jpg" alt="">
+                    <img src="img/hf.jpg" alt="" class="hf">
+                    <span class="yt">最高至24期免息</span>
+                    <span class="good-name">高科技</span>
+                </li>
+            </a>
+
+        </ul>
+        </div>
+<!--    春节年货结束-->
+<!-- 楼层3 动态楼层-->
+    <!-- 家用电器 Start -->
+    <div class="tab_list">
+        <h3 style=" color:red;float: left"><a href="">家用电器</a></h3>
+        <ul>
+            <li><a href="">热门</a></li>
+            <li>|</li>
+            <li><a href="">大家电</a></li>
+            <li>|</li>
+            <li><a href="">生活电器</a></li>
+            <li>|</li>
+            <li><a href="">厨房电器</a></li>
+            <li>|</li>
+            <li><a href="">个护健康</a></li>
+            <li>|</li>
+            <li><a href="">应季电器</a></li>
+            <li>|</li>
+            <li><a href="">空气/净水</a></li>
+            <li>|</li>
+            <li><a href="">新奇特</a></li>
+            <li>|</li>
+            <li><a href="">高端电器</a></li>
+        </ul>
+    </div>
+    <div class="floor" style="margin: 0 auto">
+        <div class="tab_content">
+            <div class="tab_list_item01">
+                <div class="col_200">
+                    <ul>
+                        <li><a href="">节能补贴</a></li><!-- 第一个为什么适应父窗级？ :还是整体浮动的问题，不仅仅是让某一个元素浮动，不然后面的很难调-->
+                        <li><a href=""> 4K电视</a></li>
+                        <li><a href="">空气净化器</a></li>
+                        <li><a href=""> IH电饭煲</a></li>
+                        <li><a href="">空气净化器</a></li>
+                        <li><a href="">IH电饭煲</a> </li>
+                        <li><a href=""> 滚筒洗衣机</a></li>
+                        <li><a href=""> 电热水器</a></li></ul>
+                    <a href="" class="c_200 "> <img src="img/floor-1-1.png" alt=""></a>
+                </div>
+                <div class="col_210"><a href=""><img src="img/pic1.png" alt=""></a></div>
+                <div class="col_220">
+                    <ul>
+                        <li><a href=""><img src="img/floor-1-2.png" alt=""></a></li>
+                        <li><a href=""><img src="img/floor-1-3.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col_230"><a href=""><img src="img/floor-1-4.png" alt=""></a></div>
+                <div class="col_240">
+                    <ul>
+                        <li><a href=""><img src="img/floor-1-5.png" alt=""></a></li>
+                        <li><a href=""><img src="img/floor-1-6.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 家用电器  End -->
+    <!--footer 底部导航  start -->
+    <footer class="footer">
+
+        <div class="shang">
+            <ul>
+                <li>
+                    <h5></h5>
+                    <div>
+                        <h4>正品保障</h4>
+                        <p>假一赔十,有假必究</p>
+                    </div>
+                </li>
+                <li>
+                    <h5></h5>
+                    <div>
+                        <h4>正品保障</h4>
+                        <p>假一赔十,有假必究</p>
+                    </div>
+                </li>
+                <li>
+                    <h5></h5>
+                    <div>
+                        <h4>正品保障</h4>
+                        <p>假一赔十,有假必究</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h5></h5>
+                        <h4>正品保障</h4>
+                        <p>假一赔十,有假必究</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="zhong">
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href=""> 购物流程</a></dd>
+                <dd><a href=""> 会员介绍</a></dd>
+                <dd><a href="">生活旅行/团购</a></dd>
+                <dd><a href=""> 常见问题</a></dd>
+                <dd><a href="">大牌家电</a></dd>
+                <dd><a href=""> 联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href=""> 购物流程</a></dd>
+                <dd><a href=""> 会员介绍</a></dd>
+                <dd><a href="">生活旅行/团购</a></dd>
+                <dd><a href=""> 常见问题</a></dd>
+                <dd><a href="">大牌家电</a></dd>
+                <dd><a href=""> 联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href=""> 购物流程</a></dd>
+                <dd><a href=""> 会员介绍</a></dd>
+                <dd><a href="">生活旅行/团购</a></dd>
+                <dd><a href=""> 常见问题</a></dd>
+                <dd><a href="">大牌家电</a></dd>
+                <dd><a href=""> 联系客服</a></dd>
+            </dl>
+
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href=""> 购物流程</a></dd>
+                <dd><a href=""> 会员介绍</a></dd>
+                <dd><a href="">生活旅行/团购</a></dd>
+                <dd><a href=""> 常见问题</a></dd>
+                <dd><a href="">大牌家电</a></dd>
+                <dd><a href=""> 联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><img src="img/二维码.png " alt=""></dd>
+                <a href="">获取DK客户端</a></dl>
+        </div>
+        <div class="xia">
+            <div class="gn">
+                <a href=""> 关于我们</a> | <a href="">联系我们</a> | <a href="">联系客服</a> | <a href="">商家入驻</a> | <a
+                    href="">营销中心</a>
+                | <a href="">手机品优购</a> | <a href="">友情链接</a> | <a href="">销售联盟</a> | <a href="">品优购社区</a> |<a href="">
+                品优购公益</a> |<a href="">English Site</a> |<a href=""> Contact U</a>
+            </div>
+            <div class="ad">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn
+                <br> 京ICP备08001421号京公网安备110108007702
+            </div>
+        </div>
+    </footer>
+    <!--footer 底部导航  end -->
+</div>
+</div>
+<script src="js/animate.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

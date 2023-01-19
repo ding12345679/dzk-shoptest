@@ -1,0 +1,33 @@
+/* 消除内外边框 */
+*{margin:0;padding:0;box-sizing: border-box;}
+/* 斜体变正 */
+em,i{font-style:normal}
+
+li{list-style:none}
+/* border照顾兼容性，
+清除图片底端留白且使图文垂直居中*/
+img{border:0;
+    vertical-align:middle}
+
+button{cursor:pointer}/* 指针为手 */
+a{color:#666;text-decoration:none}
+
+a:hover{color:#c81623}
+
+button,input{border: 0;outline: none; font-family:Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif}
+
+body{
+    /* 使文字放大后防锯齿化 */
+    -webkit-font-smoothing:antialiased;
+    background-color:#fff;
+    /* \5B8B\4F53为unicode编码，浏览器兼容性问题，中文为"宋体" */
+    font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color:#666}
+    
+    .hide,.none{display:none}
+    /* 清除浮动*/
+    .clearfix:after{visibility:hidden;
+        clear:both;
+        display:block;
+        content:".";height:0}
+        .clearfix{*zoom:1}

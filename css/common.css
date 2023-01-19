@@ -1,0 +1,252 @@
+.w{
+    position: relative;
+    width: 1200px;
+    margin:0 auto;
+    background-color: rgb(244,244,244);
+}
+
+.topNav{
+    width: 100%;
+    background-color:#ddd;
+}
+/* 导航开始 */
+ .topNav{
+        height: 31px;
+        line-height: 31px;
+        background-color: #f1f1f1;
+ }
+  .topNav_left{
+    float: left;
+}
+ .topNav_right{
+    float: right;
+    position: relative;
+}
+
+ .topNav ul li {
+    float: left;
+ }
+ 
+ .topNav .topNav_right ul li:nth-child(even){
+ width: 1px;
+ height: 12px;
+background-color: black;
+content: "|";  
+margin:9px 15px ; 
+}
+/* 导航结束 */
+
+/* 头部开始 */
+.header{
+   position: relative;
+   width: 1200px;
+   height: 80px;
+   margin: 0 auto;
+   padding-top: 20px;
+   display:flex;
+}
+/*搜索区域开始*/
+
+    .searchZone{
+        padding-top: 25px;
+    }
+    .searchContent{
+        margin-left:200px;
+        width: 400px;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 50px;
+        border: 1px solid red;
+    }
+
+    .photo-search-btn {
+        display:block;
+        position: absolute;
+        top: 50px;
+        left:730px ;
+        width: 32px;
+        height: 32px;
+        overflow: hidden;
+        background:url(../img/potho.png);
+        cursor: pointer;
+    }
+    .reseach .reachBtn{
+        margin-left: -3px;
+        width: 100px;
+        height: 40px;
+       background-image: url("../img/query.png") ;
+       background-color: red;
+       background-repeat:no-repeat;
+        background-position: center;
+         cursor: pointer;
+    }
+/*热词开始*/
+    .fluseach {
+        position: absolute;
+        margin-left:200px;
+        margin-top: 2px;
+    }
+    .fluseach li{
+        display: inline-block;
+    }
+
+    .fluseach a {
+        margin: 0 8px;
+        font-size: 12px;
+        color: #666;
+    }
+    .fluseach a:hover{
+        color: #C81623;;
+    }
+    .fluseach .defaultItem {
+        color: #C81623;
+    }
+/*热词结束*/
+/*搜索区域结束*/
+/*购物车*/
+    .shopcar{
+     position: absolute;
+       top: 40px;
+      right: 60px;
+       width: 190px;
+       height: 50px;
+       border: 1px solid #dfdfdf;
+       background-color: white;
+       line-height:40px ;
+       text-align: center;
+       font-weight: 900;
+    }
+    .shopcar::after{
+       float: left;
+       content: url("../img/shopcar.ico");
+    }
+    .shopcar::before{
+       float: right;
+       margin-right: 30px;
+       content: '>';
+    }
+    .shopcar .count{ 
+       position: absolute;
+       top: -6px;
+       height: 17px;
+       line-height: 17px;
+       border-radius: 7px 7px 7px 0;
+       color: white;
+       background-color: red;
+    }
+    /*购物车结束*/
+    /* 头部结束 */
+/*导航栏开始*/
+    .mainNav{
+     margin-top: 50px;
+       height: 45px;
+     border-bottom: 2px solid red;
+    }
+/*左导航*/
+    .mainNav .leftNav{
+       float: left;
+       width: 200px;
+       height: 45px;
+       background-color: rgb(179, 14, 14);
+       line-height: 45px;
+       text-align: center;
+    }
+    .leftNav dt{
+        font-size: large;
+        color: #fff;
+    }
+/*右导航*/
+.mainNav .rightNav{
+   float: left;
+   width: 1000px;
+   height: 45px;
+   line-height: 45px;
+   text-align: center;
+   /*margin-left: 80px;*/
+}
+.rightNav ul{
+    float: left;
+}
+.rightNav li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+.rightNav li:hover{
+    color: white;
+    background-color: rgb(179,14,14);
+}
+ .rightNav a{
+    font-size: large;
+}
+/*导航栏结束*/
+/* 底部导航栏 */
+.footer{
+    width: 1200px;
+    margin:30px auto;
+    height: 415px;
+    background-color:#fdfdfd;
+    padding-top: 30px;
+}
+.shang{ 
+   height: 80px;
+border-bottom: 1px solid #dfdfdf;
+}
+.shang ul li{
+   float: left;
+   padding-left: 34px;
+   width: 300px;
+   height: 50px;
+}
+.shang ul li h5{
+   float: left;
+   margin-right: 2px;
+width: 50px;
+height: 50px;
+background:url("../img/icons.png") no-repeat -252px -2px;
+}
+.shang ul li h4{
+   font-size: 14px;
+}
+.shang ul li p{
+   font-size: 12px;
+}
+.zhong{
+   margin: 15px auto;
+
+   padding-left:50px;
+
+   height: 185px;
+   border-bottom: 1px solid #dfdfdf;
+}
+.zhong dl{
+    text-align: center;
+    float: left;
+   width: 200px;
+}
+   .zhong dl:last-child{
+      text-align: center;
+   }
+.zhong dt{
+   font-size: 20px;
+}  
+.zhong dl:last-child dt{
+margin-bottom: 30px;
+}
+.zhong dd
+{  
+   margin-bottom: 9px;
+}
+.xia{
+   margin-top: 20px;
+   text-align: center;
+}
+.gn{
+   margin-bottom: 15px;
+}
+.gn a{
+   margin :0 4px;
+}
+.ad{
+   line-height: 20px;
+}

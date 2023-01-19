@@ -1,0 +1,264 @@
+.content{
+    /*background-color:rgb(255,255,255);*/
+    margin-top: 30px;
+    height: 2000px;
+}
+.content .good{
+    float: left;
+    width: 450px;
+    padding:9px;
+    height: 520px;
+    background-color: #fff;
+}
+.good .good-img{
+    position: relative;
+    width: 100%;
+    border:1px solid #ccc ;
+}
+.good .good-img .imgger{
+    width: 100%;
+    border:1px solid #ccc ;
+}
+
+/*js的交互*/
+.good-img .mask{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #fede4f;
+    opacity: .5;
+    cursor: move;
+}
+.good-img  .big{
+    display: none;
+    position: absolute;
+    left: 410px;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border:1px solid #ccc;
+    overflow: hidden;
+}
+.good-img  .big img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*规格选择*/
+.good .choose-type{
+    margin: 10px auto;
+    width: 430px;
+}
+.good .choose-type img{
+    width:50px;
+    height: 50px;
+}
+.good .choose-type ul{
+    margin: 0 auto;
+    width: 230px;
+}
+.good .choose-type li{
+    display: inline-block;
+}
+
+.good .choose-type li:nth-child(1), .good .choose-type li:nth-last-child(1){
+     vertical-align: middle;
+     width: 22px;
+     height: 32px;
+ }
+.good .choose-type li:nth-child(1){
+    background: url("../img/__sprite.png")  0 -54px;
+}
+
+.good .choose-type li:nth-last-child(1){
+    background: url("../img/__sprite.png")  -78px 0;
+}
+.good .choose-type li img:hover{
+    border: 1px solid red;
+}
+/*        商品详情描述 开始*/
+.text{
+    padding-left: 20px;
+    padding-top:20px;
+    width: 740px ;
+    height: 520px;
+    margin-left: 10px;
+    float: right;
+    background-color: white;
+}
+.text .good-desc{
+    font-weight: 500;
+}
+.text .jd-price{
+    padding: 0 10px;
+    width: 720px;
+    height:50px;
+    background-color: rgb(243,243,243);
+}
+.text .jd-price span{
+ line-height: 50px;
+}
+.text .jd-price span:nth-child(1){
+    float: left;
+}
+.text .jd-price span:nth-child(2),.text .jd-price span:nth-child(3){
+    font-size: larger;
+    font-weight: 700;
+    color: red;
+}
+.text .jd-price span:nth-last-child(1){
+    float: right;
+    font-size: larger;
+    font-weight: 400;
+}
+.text .jd-price span:nth-last-child(1)::before{
+    content: "|";
+    line-height: 20px;
+    color: #ccc;
+}
+/*选择规格*/
+.choose-attr{
+    margin-bottom: 20px;
+}
+.choose-version span:nth-child(1), .choose-color span:nth-child(1){
+    font-size: larger;
+    font-weight: 700;
+}
+.choose-color li{
+    padding: 0 10px;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border:1px solid #ccc;
+}
+.choose-color li:hover{
+    border:2px solid red;
+}
+.choose-color li img{
+    width: 50px;
+    height: 100%;
+}
+.choose-color li i{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px ;
+}
+.choose-version li{
+    padding: 0 10px;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border:1px solid #ccc;
+}
+.choose-version li:active{
+    color: red;
+    border: 1px solid red;
+}
+.choose-version li i{
+    /*display: inline-block;*/
+    line-height: 50px;
+    text-align: center;
+}
+/*加购*/
+.num{
+    float:left;
+    width:100px;
+}
+.inputer{
+    width: 80px;
+    height: 50px;
+    border:1px solid black;
+}
+.qg{
+    width: 60px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+/*tab栏*/
+.item-tab{
+    float: left;
+    text-align: center;
+    width: 1200px;
+    height: 50px;
+    background-color: #ccc;
+ }
+.item-tab li{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.defaultItem{
+    color: white;
+    background-color: red;
+}
+.item-contents{
+    float: left;
+    margin-top: 10px;
+    width: 1200px;
+}
+.item-content{
+    display: none;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: larger;
+    font-weight: 700;
+    color: red;
+
+}
+.defaultContent{
+    display: block;
+}
+.item-content input:nth-child(1){
+    width: 910px;
+    background-color: white;
+    padding: 20px;
+}
+.item-content input{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px
+}
+.comments{
+    display: block;
+    margin-top: 20px;
+    width: inherit;
+    height: 200px;
+    color: black;
+}
+.comments li{
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left:20px;
+    height: 50px;
+    background-color: white;
+}
+.comments a{
+    position: absolute;
+    font-size: 15px;
+    right: 20px;
+    line-height: 50px;
+}
+.comments span {
+    position: absolute;
+    right: 100px;
+    line-height: 50px;
+    color: #666666;
+    font-size: 10px;
+}
+.comments span::before {
+    content: '发布于';
+}

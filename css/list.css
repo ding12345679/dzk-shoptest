@@ -1,0 +1,63 @@
+/*楼层2 春节年货开始*/
+.gift{
+    position: relative;
+    margin: 10px auto;
+    width:1200px;
+    height: 970px;
+    /*background-image: url("../img/newYear.jpg");*/
+    /*background-size: cover;*/
+}
+.gift .goods{
+    position: absolute;
+    padding:5px 8px;
+    margin:10px 100px;
+    width: 1000px;
+    /*height: 380px;*/
+    background-color: transparent;
+}
+.goods li{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 180px;
+    background-image: url("../img/goodsbj.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.goods li>img{
+    width: 100px;
+    height: 80px;
+    margin:10px 25px ;
+}
+.goods .hf{
+    width: 120px;
+    height: 25px;
+    margin: 20px 15px;
+    background-image: url("../img/hf.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.goods .yt{
+    display: block;
+    position: absolute;
+    margin: -42px 30px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+}
+.goods .good-name{
+    display: block;
+    position: absolute;
+    margin-top: -22px ;
+    padding-left: 45px;
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*楼层2 春节年货结束*/

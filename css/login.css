@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1200px;
+    margin: 15px auto;
+    /* background-color: skyblue; */
+}
+/* <!-- 图标及提醒开始--> */
+.logo span{
+position: absolute;
+   display: inline-block;
+   height: 60px;
+   margin-left: 30px;
+  line-height: 60px; 
+   font-size: large;
+   font-weight: bolder;
+}
+.qcomit{
+    position: relative;
+    height: 20px;
+    float: right;
+    overflow: hidden;
+    margin-bottom: 0; 
+    top: 40px;
+}
+.qcomit .qico{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background-image: url(../img/q-icon.png) ;
+    vertical-align: middle;
+}
+/* <!-- 图标及提醒结束--> */
+.main .hint{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color:rgba(255,248,240,0);
+}
+.main .froms{
+    height: 450px;
+    background-image: url(../img/background.png);
+}
+.froms .formstyle{
+    position: relative;
+    float: right;
+    width: 370px;
+    height: 380px;
+    margin-top:10px;
+    background-color: #efefef;
+}
+.formstyle .fzp{
+    display: block;
+    width: 370px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:rgba(255,248,240,0);
+    opacity: 0.5;
+
+}
+.formstyle .tab{
+   display: inline-block;
+   width: 48%;
+   height: 48px;
+   line-height: 50px;
+   font-size: larger;
+   font-weight: bolder;
+   text-align: center;
+   cursor: pointer;
+}
+.scan{
+    position:absolute;
+    width: 370px;
+    display:none;
+}
+.scan img{
+    width: 130px;
+    height: 130px;
+    margin-top:30px;
+    margin-left: 115px;
+}
+.scan ul{
+    width:370px ;
+    text-align: center;
+    margin-top:20px ;
+}
+.scan ul b{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.scan .h1{
+    background: url(../img/qr-coagent.png) ;
+}
+.scan .h2{
+    background: url(../img/qr-coagent.png) -25px -25px ;
+}
+.scan .h3{
+    background: url(../img/qr-coagent.png) -50px -50px ;
+}
+
+.scan ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.up{
+    position: absolute;
+    margin:15px 30px;
+    width: 38px;
+    height: 38px;
+    border: 0.5px solid #ccc;
+}  
+ .userIcon{
+background: url(../img/pwd-icons-new.png)  ;
+}
+.userIconClick{
+    background:url(../img/pwd-icons-new.png) 0 -48px;
+}
+
+ .pwdIcon{
+    background: url(../img/pwd-icons-new.png)  -48px 0 ;
+}
+.pwdIconClick{
+    background:url(../img/pwd-icons-new.png) -48px -48px;
+}
+/* .login input[name=userName],input[name=userPwd]{
+    margin: 10px 66px;
+    width: 275px;
+    height: 35px;
+} */
+.login input{
+    margin:15px 67px;
+    padding-left:15px ;
+    width: 275px;
+    height: 38px;
+    background-color:rgba(244,244,244,0);
+    border: 0.5px solid #ccc;
+}
+.login .userBtn{
+    position: absolute;
+    margin: 30px 66px;
+    display: block;
+    width: 275px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+.login span{
+    float: right;
+    margin-right: 10px;
+}
+/* 不属于tab栏 */
+.formstyle .add{
+    position:absolute;
+    bottom: 2px;
+}
+.add{
+    width: 370px;
+}
+.add .qqwx{
+    margin-left: 10px;
+    display:inline-block;
+    width: 38px;
+    height: 20px;
+    background: url(../img/QQ-weixin.png) no-repeat;
+    cursor: pointer;
+}
+.add .ljzc{
+    cursor: pointer;
+   float: right;
+   margin-right: 15px;
+   vertical-align: center;
+}
+.add .gIco{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../img/pwd-icons-new.png) -104px -75px ;
+    vertical-align: middle;
+
+}
+
+
+
+/* <!-- 页脚 --> */
+.tfooter{
+    width: 1000px;
+    margin-top: 10px;
+}
+.links{
+    text-align: center;
+}
+.links li{
+    font-size: 16px;
+    display: inline-block;
+}
+.links li:nth-child(even)::before{
+    content: "|";
+}
+.tfooter span{
+    display: block;
+   text-align: center;
+}
+/*结合js*/
+.checked{
+    color: white;
+    background-color: red;
+}
